@@ -1,0 +1,306 @@
+html {
+    background-color: #000;
+    font-family: Arial, sans-serif;  
+}
+
+header {
+   width: 1310px;
+   height: 100px;
+   background-color: #000;
+}
+main {
+    background-color:#fff;
+    width: 1310px;
+}
+
+body {
+    max-width: 1310px; 
+    margin: 0 115px 0 115px;
+    background-color: #000;
+    position:absolute;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: #007D7B; 
+    text-transform: uppercase; 
+    float: left; 
+}
+
+nav a {
+    display:inline-block;
+    width:250px;  
+}
+
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul li {
+    list-style:none;
+    font-size:  20px;
+    display:inline-block;
+    text-align: right;
+}
+
+a:hover {
+   color: #007D7B;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+.TK {
+    width:850px;
+    float: left;
+    margin: 10px;
+    clear: left;
+}
+
+.about {
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    text-align: right;
+    float: right;
+    clear:right;
+}
+
+.about2 {
+    width: 420px;
+    margin: 0 20px 0 0;
+    text-align: right;
+    float: right;
+    clear:right;
+}
+
+.gallery1 {
+    width: 1310px;
+    margin: 0 10px 5px 20px;
+    text-align: left;
+    float: left;
+    clear:right;
+}
+
+.gallery2 {
+    width: 1310px;
+    height: 20px;
+    margin: 0 10px 10px 20px;
+    text-align: left; 
+    float: left;
+}
+
+.one {
+    padding: 5px 2.5px 2.5px 5px;
+     
+}
+
+.two {
+    padding: 5px 2.5px 2.5px 2.5px;
+    
+}
+
+.three {
+    padding: 5px 5px 2.5px 2.5px;
+    
+}
+
+.photos {
+    text-align: center;
+}
+
+.chile {
+    top: 430px;
+    left: 20px;  
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    
+}
+
+.guate {
+    top: 430px;
+    left: 450px;
+    color:#FFF;  
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.hawaii {
+    top: 675px;
+    right: 50px;
+    color:#FFF;  
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.iran {
+    top: 725px;
+    left: 20px; 
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute; 
+}
+
+.ireland {
+    top: 1325px;
+    left:710px;
+    color:#FFF;  
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.italy {
+    top: 1325px;
+    left: 890px;
+    color:#FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute; 
+}
+
+.moab {
+    top: 1615px;
+    left: 220px;
+    color:#FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.rocky {
+    top: 1370px;
+    left: 450px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.land {
+    top: 1615px;
+    left: 890px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.uk {
+    top: 1915px;
+    left: 340px;
+    color:#FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.usa {
+    top: 1665px;
+    left: 450px;
+    color:#FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.wyom {
+    top: 1675px;
+    left: 890px;
+    color:#FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    
+}
+
+
+.photos {
+    text-align: center;
+    
+}
+
+form {
+    text-align: center;
+}
+.assignment{
+    font-size: 16px;
+    color:#FFF;
+    text-transform: uppercase;
+    width: 60%;  
+    margin: 0 auto;
+}
+
+.box {
+    text-align: left;
+}
+
+.contact {
+    text-align: center;
+    color: #FFF;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;       
+}
+
+::placeholder {
+    color:#007D7B ;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+
+button {
+    font-size: 16px;
+    border: 0;
+    padding: 8px 200px;
+    margin: 5px;
+    background-color:#007D7B;
+    color:#FFF;
+    text-transform: uppercase;
+    border-radius: 10px; 
+}
+
+[href=".top"]:hover {
+    color: #007D7B;
+    background-color: #FFF;
+}
+
+[href=".top"] {
+    width: 80px;
+    height: 50px;
+    background-color:#007D7B;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    text-align: center;
+}
+
+footer {
+    font-size: 16px;
+    display:block;
+    padding: 10px;
+    text-align:center;
+    text-transform: uppercase; 
+    color:#FFF; 
+}
